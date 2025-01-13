@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colorful Table</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -12,10 +13,10 @@
         <caption>Task for HW after lesson<span>#05</span></caption>
         <thead>
             <tr>
-                <th>#</th>
-                <th>Name</th>
-                <th>Points</th>
-                <th>Team</th>
+                <th class="table-head">#</th>
+                <th class="table-head">Name</th>
+                <th class="table-head">Points</th>
+                <th class="table-head">Team</th>
             </tr>
         </thead>
         <tbody>
@@ -79,8 +80,14 @@
                 <td>64.2</td>
                 <td>Bordo</td>
             </tr>
+
         </tbody>
-        <tfooter></tfooter>
+        <tfoot>
+            <tr>
+                <td colspan="2">Contacts</td>
+                <td colspan="2">Email</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 
